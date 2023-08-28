@@ -1,0 +1,110 @@
+.darkBG {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.divWrapper {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  max-width: 500px;
+  top: -6rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0e0e0;
+  color: black;
+  margin: 0;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  transition: opacity 0.5s ease-in;
+}
+
+.closeBtn {
+  color: red;
+  background-color: white;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border-radius: 25%;
+  top: -40px;
+  position: absolute;
+  right: 0;
+}
+
+.closeBtn:hover {
+  background-color: red;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.label {
+  box-sizing: border-box;
+  color: black;
+  width: 100%;
+  font-size: 1.6rem;
+}
+
+.input {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1rem 0 1rem 0.5rem;
+  margin-top: 0.5rem;
+  border: none;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.bottomCon {
+  color: blue;
+  display: flex;
+  justify-items: center;
+  align-items: start;
+  width: 100%;
+}
+
+.addButton,
+.closeButton {
+  cursor: pointer;
+  border-radius: 0.25rem;
+  border: 0;
+  width: 6vw;
+  height: 4vh;
+  font-size: 0.9rem;
+  margin: 0 0.25rem 0 0.25rem;
+}
+
+.addButton:hover {
+  background-color: rgb(125, 125, 255);
+}
+
+.closeButton:hover {
+  background-color: red;
+}
+
+.addButton {
+  color: white;
+  background-color: blue;
+}
+
+.closeButton {
+  color: black;
+  background-color: lightgray;
+}

@@ -1,0 +1,9 @@
+.SortingList {
+  width: 6vw;
+  height: 4vh;
+  cursor: pointer;
+  background-color: #808080;
+  border-radius: 0.25em;
+  border: 0;
+  font-size: 0.5em;
+}

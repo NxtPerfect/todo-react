@@ -1,0 +1,38 @@
+.Wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+}
+
+.Task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(75, 75, 75);
+  border-radius: 0.25rem;
+}
+
+.check_finished {
+  width: 5%;
+  height: 35%;
+  margin: 1rem;
+}
+
+.check_finished:checked {
+  accent-color: blue;
+}
+
+.trash {
+  cursor: pointer;
+  margin: 0 1rem 0 1rem;
+}
+
+.trash:hover {
+  color: blue;
+}
